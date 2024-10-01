@@ -5,23 +5,29 @@
         .checkbox {
             margin-bottom: 10px;
         }
+
+        .checkbox>input {
+            background-color: cornflowerblue;
+
+        }
     </style>
 </head>
 
 <body>
-    <p style="margin-bottom: 30px;">
-        <span style=" border:solid 1px olive; border-radius: 7px; padding: 3px; background-color: salmon;">&nbsp;&nbsp;새
-            슬라이드 추가하기
-            &nbsp;&nbsp;>&nbsp;&nbsp;</span>
+    <p style="margin-top: 15px; margin-bottom: 20px;">
+        <span style="background-color: cornflowerblue; border-radius: 9px; padding: 3px; color: white;">
+            <span>&nbsp;&nbsp;새 슬라이드 추가하기 </span>
+            <span> &nbsp;&nbsp;>&nbsp;&nbsp;</span>
+        </span>
     </p>
 
-    <hr style=" border: solid 1px olive;">
+    <hr style=" border: solid 1px cornflowerblue;">
     </hr>
-    <p>
-        <span style="font-size: 20px; font-weight: 800; color: olive; padding-left: 15px;">youjin
+    <p style="margin-top: 5px; margin-bottom: 5px;">
+        <span style="font-size: 20px; font-weight: 300; color: black; margin-left: 15px;">youjin
             to do
             list</span>
-        <hr style=" margin-bottom: 20px; border: solid 1px olive;">
+        <hr style=" margin-bottom: 20px; border: solid 1px cornflowerblue;">
     </p>
     </hr>
     <div class="checkbox">
@@ -41,16 +47,22 @@
     </div>
     <div class="checkbox">
         <input type="checkbox" name="-" id="">
+        <button style="width: 23px; height: 23px; border-radius: 100px; padding: 0; border: 1px solid black;">+</button>
     </div>
     <hr>
     </hr>
 
-    <button onclick="location.href='test.html'">다음 페이지로 이동하기</button>
-    <a href="#" onclick="location.href='test.html'">다음 페이지로 이동하기</a>
+    <!-- <button onclick="location.href='test.html'">다음 페이지로 이동하기</button>
+    <a href="#" onclick="location.href='test.html'">다음 페이지로 이동하기</a> -->
+    <!-- inline, inline-block, block -->
+    <!-- inline:   -->
+    <!-- inline-block: button, input -->
+    <div style="float: right;">
+        <span>1</span>
 
+        <img src="0.png" width="50" height="50" style="vertical-align: middle;">
+    </div>
 
 
 
 </body>
-
-</html>
